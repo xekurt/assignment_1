@@ -7,32 +7,32 @@
 }
 
 :root {
-  /* Core grayscale */
-  --gray-50: #f9fafb; /* Lightest - background */
-  --gray-100: #f3f4f6; /* Subtle backgrounds */
-  --gray-200: #e5e7eb; /* Light borders, dividers */
-  --gray-300: #d1d5db; /* Medium borders */
-  --gray-400: #9ca3af; /* Subtle text */
-  --gray-500: #6b7280; /* Medium emphasis text */
-  --gray-600: #4b5563; /* High emphasis text */
-  --gray-700: #374151; /* Strong text */
-  --gray-800: #1f2937; /* Nearly black text */
-  --gray-900: #111827; /* Darkest - headings */
+ 
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
 
-  /* Subtle accent colors */
-  --accent-blue: #3b82f6; /* Primary actions */
-  --accent-indigo: #6366f1; /* Alternative accent */
-  --accent-green: #10b981; /* Success states */
-  --accent-amber: #f59e0b; /* Warnings */
-  --accent-red: #ef4444; /* Errors */
+ 
+  --accent-blue: #3b82f6;
+  --accent-indigo: #6366f1;
+  --accent-green: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-red: #ef4444;
 
-  /* Surfaces */
+ 
   --surface-light: var(--gray-50);
   --surface-main: var(--gray-100);
   --surface-raised: #ffffff;
   --surface-sunken: var(--gray-200);
 
-  /* Sizes */
+ 
   --header-height: 80px;
   --nav-height: 80px;
   --uppersection-height: 176px;
@@ -41,7 +41,7 @@
 body {
   background-color: var(--gray-100);
   color: var(--neutral-light);
-  font-size: 1rem; /* Equivalent to 16px */
+  font-size: 1rem;
   line-height: 1.5;
   background-image: linear-gradient(
     to bottom,
